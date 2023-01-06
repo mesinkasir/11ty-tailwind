@@ -1,6 +1,6 @@
 {
   "title": "Robopos Web App",
-  "url": "https://example.com/",
+  "url": "https://robopos.axcora.com/",
   "language": "id",
   "description": "Aplikasi kasir toko penjualan, program software toko terintegrasi website toko online shop.",
   "cover": "/img/aplikasi toko kasir online shop (2).webp",
@@ -14,11 +14,11 @@
     "subtitle": "Aplikasi kasir toko penjualan, program software toko terintegrasi website toko online shop.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "https://robopos.axcora.com/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "https://robopos.axcora.com/feed/feed.json"
   },
   "author": {
     "name": "creativitas",
