@@ -3,7 +3,7 @@ title: This is my first post.
 description: This is a post on My Blog about agile frameworks.
 date: 2018-05-01
 btnlink: https://youtube.com
-image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAkg57MV3HQXJmg4vofIbIkZWOfCcHq34SK6DOFCLNH5ARfOBJ9vseOJ7UXIQAQz0SoaK3eVuPIXny1RMOZpNCc7SXkYO6rDubPGGcuVKAzdu-q9BV082-GG0A-HOZ7XjaJ3YRHdolr02enrU3DFHYwJKU6Yqd4E8OqgLK-5dvM5nhVLzAvVM_pVRCtA/s500/aplikasi%20toko%20kasir%20online%20shop%20(2).webp
+image: /img/aplikasi kasir toko online shop (1).webp
 tags:
   - another tag
 layout: layouts/post.njk
