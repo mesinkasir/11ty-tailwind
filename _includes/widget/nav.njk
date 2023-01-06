@@ -1,0 +1,9 @@
+<div class="bg-white">
+  <div class="mx-auto max-w-7xl py-12 px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
+    <div class="grid grid-cols-4 gap-y-6 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+  {%- for entry in collections.all | eleventyNavigation %}
+       <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+      {%- endfor %}
+    </div>
+  </div>
+</div>

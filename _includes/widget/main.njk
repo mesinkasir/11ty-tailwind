@@ -1,0 +1,13 @@
+<main class="py-6 px-12 sm:p-6 md:py-12 md:px-20">
+  <div class="mx-auto grid grid-cols-1 lg:max-w-1xl lg:gap-x-10 lg:grid-cols-1">
+    <div class="relative p-3 col-start-1 row-start-1 flex flex-col-reverse rounded-lg bg-gradient-to-t from-black/75 via-black/0 sm:bg-none sm:row-start-2 sm:p-0 lg:row-start-1">    
+      <h1 class="mt-1 py-1 text-lg font-semibold text-white sm:text-slate-900 md:text-2xl dark:sm:text-white"><a href="{{ '/' | url }}">{{ title }}</a></h1>
+      <p class="text-sm py-1 leading-4 font-medium text-white sm:text-slate-500 dark:sm:text-slate-400">{{ description }}</p>
+      {% if image %}<img src="{{image}}" alt="" class="w-full h-full object-cover rounded-lg sm:col-span-1 lg:col-span-full" loading="lazy">{% endif %}
+    </div>   
+    <div class="mt-4 col-start-1 row-start-3 self-center sm:mt-0 sm:col-start-2 sm:row-start-2 sm:row-span-2 lg:mt-6 lg:col-start-1 lg:row-start-3 lg:row-end-4">
+     {% if btnlink %} <a type="button" href="{{btnlink}}" class="bg-indigo-600 text-white text-sm leading-6 font-medium py-2 px-3 rounded-lg mb-3">Play Video Demo</a>{% endif %}
+    </div>
+    {{ content | safe }}
+  </div>
+</main>

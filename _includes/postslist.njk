@@ -1,0 +1,37 @@
+<div class="bg-white">
+  <div class="mx-auto max-w-2xl py-6 px-4 sm:py-8 sm:px-6 lg:max-w-7xl lg:px-8">
+   <div class="sm:text-center">
+      <h2 class="text-lg font-semibold leading-8 text-indigo-600"><a href="/">{{title or home.features}}</a></h2>
+      <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{description or home.featurestext}}</p>
+    </div>
+    <div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+ {% for post in postslist | reverse %}
+    <div class="group relative py-4">
+         <div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
+          {% if post.data.image %}<img src="{{ post.data.image }}" alt="{{ post.data.title }}" class="h-full w-full object-cover object-center lg:h-full lg:w-full">{% endif %}
+        </div>
+        <div class="mt-4 flex justify-between">
+          <div>
+            <h3 class="text-2xl font-bold text-gray-900">
+              <a href="{{ post.url | url }}">
+                <span aria-hidden="true" class="absolute inset-0"></span>
+                {% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}
+              </a>
+            </h3>
+            <p class="mt-1 text-sm text-gray-500">{% if post.data.description %}{{ post.data.description }}{% else %}<code>{{ post.url }}</code>{% endif %}</p>
+         <p class="mt-1 text-sm text-gray-500">
+          {% for tag in post.data.tags | filterTagList %}
+      {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+      <a href="{{ tagUrl | url }}">{{ tag }}</a>
+    {% endfor %}
+          </p>
+          </div>
+          </div>
+      </div>
+{% endfor %}
+    </div>
+    <div class="sm:text-center">
+     <a href="{{home.fiturlink}}" class="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-indigo-600 hover:bg-indigo-50">{{home.fitur}}</a>
+     </div>
+  </div>
+</div>

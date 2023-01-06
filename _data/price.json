@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Premium Paket",
+    "fitur": "Cloud App + Backadmin Web app + CMS Website+ website dot com + Online order + Android App",
+    "price": "Rp.3.600.000/Tahun",
+    "link": "https://app.midtrans.com/payment-links/robopos-pro"
+  },
+  {
+    "name": "Standard Paket",
+    "fitur": "Cloud Database + Backadmin Web app + CMS Website+ website dot com",
+    "price": "Rp.2.600.000/Tahun",
+    "link": "https://app.midtrans.com/payment-links/robopos-standard"
+  }
+]

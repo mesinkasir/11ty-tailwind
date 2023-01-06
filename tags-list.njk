@@ -1,0 +1,11 @@
+---
+permalink: /tags/
+layout: layouts/start.njk
+---
+<div class="sm:text-center">
+
+{% for tag in collections.tagList | filterTagList %}
+  {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+{% endfor %}
+</div>

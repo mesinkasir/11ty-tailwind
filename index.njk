@@ -1,0 +1,13 @@
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Home
+  order: 1
+btn: Download Now
+btnlink: https://mesinkasir.github.io/larapos/e-catalog/RoboPOS%20App.pdf
+info: Sempurnakan bisnis usaha toko shop dengan menggunakan robopos web app - sebuah aplikasi kasir toko penjualan dengan fitur yang lengkap dan terintegrasi secara penuh dengan website toko online shop modern untuk bisnis retail
+---
+{% set maxPosts = collections.posts.length | min(4) %}
+{% set postslist = collections.posts | head(-4) %}
+{% set postslistCounter = collections.posts | length %}
+{% include "postslist.njk" %}
