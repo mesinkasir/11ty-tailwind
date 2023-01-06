@@ -1,3 +1,3 @@
-# 11ty-tailwind
+# tailwind 11ty
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/11ty-c4dtpb)
+stay tuned..... on progress development !!
