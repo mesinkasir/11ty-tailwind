@@ -1,6 +1,9 @@
 # tailwind 11ty
 
-stay tuned..... on progress development !!
+Demo : [https://robopos.axcora.com/](https://robopos.axcora.com/)
+
+
+![tailwind css eleventy 11ty static site generator](11ty-tailwind.jpeg)
 
 Demo : [https://robopos.axcora.com/](https://robopos.axcora.com/)
 
