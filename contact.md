@@ -21,7 +21,7 @@ Hubungi kami untuk bantuan , informasi serta konsultasi mengenai kebutuhan aplik
 Ruko Pasar Wisata Juanda Blok Q.07
 Sidoarjo - Indonesia - East Java
 
-whatsapp : [+6285646104747](https://wa.me/6285646104747)
+whatsapp : [+62895339403223](https://wa.me/62895339403223)
 
 call us : [+62895339403223](tel:+62895339403223)
 
